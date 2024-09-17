@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+}
+
+#users-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.user {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.user img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.user h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.user p {
+    font-size: 0.9em;
+    color: #666;
+}

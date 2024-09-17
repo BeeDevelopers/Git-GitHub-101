@@ -1,0 +1,12 @@
+[
+    {
+      "username": "usuario1",
+      "photo": "https://avatars.githubusercontent.com/u/73394216?v=4",
+      "description": "Descripción breve del usuario 1"
+    },
+    {
+      "username": "usuario2",
+      "photo": "https://avatars.githubusercontent.com/u/73394216?v=4",
+      "description": "Descripción breve del usuario 2"
+    }
+  ]

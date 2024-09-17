@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Users</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!--Sección de los contribuidores-->
+    <h1>¡Contribuidores 💙🐦‍🔥✨💛!</h1>
+    <div id="users-container"></div>
+
+    <script>
+        async function fetchUsers() {
+            try {
+                const response = await fetch('data.json');
+                const users = await response.json();
+                const container = document.getElementById('users-container');
+
+                users.forEach(user => {
+                    const userDiv = document.createElement('div');
+                    userDiv.classList.add('user');
+
+                    const img = document.createElement('img');
+                    img.src = user.photo;
+                    img.alt = `${user.username}'s photo`;
+
+                    const username = document.createElement('h2');
+                    username.textContent = user.username;
+
+                    const description = document.createElement('p');
+                    description.textContent = user.description;
+
+                    userDiv.appendChild(img);
+                    userDiv.appendChild(username);
+                    userDiv.appendChild(description);
+
+                    container.appendChild(userDiv);
+                });
+            } catch (error) {
+                console.error('Error fetching users:', error);
+            }
+        }
+
+        fetchUsers();
+    </script>
+</body>
+</html>
