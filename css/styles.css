@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #8b4caf; /* Cambia este color según tu preferencia */
+    background-color: #8b4caf; /* Change this color as per your preference */
     color: white;
     padding: 20px;
     text-align: center;
@@ -77,5 +77,24 @@ header p {
 }
 
 .contact-link:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+footer a:hover {
     text-decoration: underline;
 }
