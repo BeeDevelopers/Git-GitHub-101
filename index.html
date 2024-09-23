@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>GitHub Users</title>
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Users</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
 <body>
     <!-- Header de la página -->
     <header>
-        <h1>¿A qué estoy comprometidx en mi carrera profesional 🏗️?</h1>
-        <p>¿Qué te gusta?, ¿Qué quieres explorar y hacia dónde quieres dirigir tus esfuerzos para descubrir cosas nuevas🌠?</p>
+        <h1>Git y GitHub 101</h1>
+        <p>Este sitio web está dedicado a mostrar a los contribuidores de nuestro repositorio. Aquí puedes encontrar información sobre cada uno de ellos.</p>
     </header>
 
     <!-- Sección de los contribuidores -->
@@ -23,73 +22,49 @@
                 const response = await fetch('data.json');
                 const users = await response.json();
                 const container = document.getElementById('users-container');
-    
+
                 users.forEach(user => {
                     const userDiv = document.createElement('div');
                     userDiv.classList.add('user');
-    
+
                     const img = document.createElement('img');
                     img.src = user.photo;
                     img.alt = `${user.username}'s photo`;
-    
+
                     const userInfo = document.createElement('div');
                     userInfo.classList.add('user-info');
-    
+
                     const username = document.createElement('h2');
                     username.textContent = user.username;
-    
+
                     const description = document.createElement('p');
                     description.textContent = user.description;
-    
+
                     const contactLink = document.createElement('a');
-                    contactLink.href = user.contact;
+                    contactLink.href = `https://${user.contact}`;
                     contactLink.textContent = "Contacto";
                     contactLink.classList.add('contact-link');
-    
-                    const contactIcon = document.createElement('i');
-                    switch (user.social) {
-                        case 'github':
-                            contactIcon.classList.add('fab', 'fa-github');
-                            break;
-                        case 'linkedin':
-                            contactIcon.classList.add('fab', 'fa-linkedin');
-                            break;
-                        case 'instagram':
-                            contactIcon.classList.add('fab', 'fa-instagram');
-                            break;
-                        case 'whatsapp':
-                            contactIcon.classList.add('fab', 'fa-whatsapp');
-                            break;
-                        default:
-                            contactIcon.classList.add('fas', 'fa-link');
-                    }
-    
-                    const contactContainer = document.createElement('div');
-                    contactContainer.classList.add('contact-container');
-                    contactContainer.appendChild(contactIcon);
-                    contactContainer.appendChild(contactLink);
-    
+
                     userInfo.appendChild(username);
                     userInfo.appendChild(description);
-                    userInfo.appendChild(contactContainer);
-    
+                    userInfo.appendChild(contactLink);
+
                     userDiv.appendChild(img);
                     userDiv.appendChild(userInfo);
-    
+
                     container.appendChild(userDiv);
                 });
             } catch (error) {
                 console.error('Error fetching users:', error);
             }
         }
-    
+
         fetchUsers();
     </script>
-
-    <!-- Footer de la pagina-->
+    
     <footer>
         <p>Coded with 💛 by BeeDevelopers</p>
-        <p><a href="https://github.com/BeeDevelopers/guidelines?tab=coc-ov-file" target="_blank">Code of Conduct</a></p>
+        <p><a href="https://example.com/code-of-conduct" target="_blank">Code of Conduct</a></p>
     </footer>
 </body>
 </html>
