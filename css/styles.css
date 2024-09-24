@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0px;
+    padding: 20px;
     background-color: #f4f4f4;
 }
 
@@ -25,7 +25,6 @@ header p {
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
-    padding: 20px;
 }
 
 .user {
@@ -72,6 +71,12 @@ header p {
 
 .contact-link:hover {
     text-decoration: underline;
+}
+
+.social-icon {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #4CAF50;
 }
 
 footer {
