@@ -2,9 +2,6 @@
 # Git y GitHub 101
 ¡Repo para crear tus primeras pull request, contenido y espacio para subir las evidencias del taller!
 
-## Contenido
-
-
 ### ¡Gánate un peluche de Mona The Octocat🥳!
 
 Si quieres participar en el sorteo de un *_peluche de Mona 🏆_*, acá te dejamos todas las instrucciones a seguir:
