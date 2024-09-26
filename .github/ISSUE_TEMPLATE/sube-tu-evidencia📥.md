@@ -8,10 +8,14 @@ assignees: ''
 
 ---
 
-🏆1. Evidencia del trofeo obtenido al terminar la ruta de entrenamiento[GitHub Foundations] (https://learn.microsoft.com/en-us/training/paths/github-foundations/)
+🎒1. Evidencia de que ya activaste tu GitHub Student Developer Pack (en tu perfil de GitHub debe aparecer el badge de "Pro")
+
+
+🏆2. Evidencia del trofeo obtenido al terminar la ruta de entrenamiento[GitHub Foundations] (https://learn.microsoft.com/en-us/training/paths/github-foundations/)
 > La captura de pantalla debe mostrar tu nombre completo del perfil de Microsoft Learn para validar la autenticidad. Si detectamos algún intento de trampa, perderás tu oportunidad de participar en esta y futuras dinámicas similares a esta.
 
-🔗2. Link al Pull Request con tu contribución:
+
+🔗3. Link al Pull Request con tu contribución:
 
 ---
 
