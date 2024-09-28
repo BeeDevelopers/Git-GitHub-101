@@ -22,6 +22,7 @@ Al completar todos los pasos, una persona del staff te confirmará tu participac
 ##### ¿A poco no te quieres ganar esa chulada y aprender 🥰💖👇🏾?
 <img src="https://i.imgur.com/2b2h5iw.jpeg" width=50% height= 50% >
 
+## ANUNCIAREMOS A LA PERSONA GANADORA EL SÁBADO 12 DE OCTUBRE 🪅🔮🎉
 
 > [!IMPORTANT]
 > Esta dinámica solo es válida para estudiantes inscritos actualmente en la División de Ingenierías Campus Irapuato Salamanca, Universidad de Guanajuato.
