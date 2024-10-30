@@ -3,15 +3,30 @@ body {
     margin: 0;
     padding: 20px;
     background-color: #f4f4f4;
+    
 }
 
+/* Estilos para el header */
 header {
     background-color: #8b4caf; /* Cambia este color según tu preferencia */
     color: white;
     padding: 20px;
     text-align: center;
+    width: 100%; /* Asegura que el ancho sea igual al ancho de la ventana */
+    margin: 0; /* Elimina cualquier margen */
 }
 
+/* Estilos para el footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%; /* Asegura que el ancho sea igual al ancho de la ventana */
+    bottom: 0; /* Fija el footer en la parte inferior de la ventana */
+    margin: 0; /* Elimina cualquier margen */
+}
 h1 {
     margin: 0;
 }
