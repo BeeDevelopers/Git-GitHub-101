@@ -94,16 +94,6 @@ header p {
     color: #4CAF50;
 }
 
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
 footer a {
     color: #4CAF50;
     text-decoration: none;
