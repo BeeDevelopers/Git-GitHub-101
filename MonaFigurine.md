@@ -1,8 +1,4 @@
 # Preguntas a responder
-Contesta todas para desbloquear las preguntas al staff de Git y GitHub y te ayuden a encontrar la ubicación de la figurita.
-
-> [!NOTE]
-> Recuerda que solo pueden responder con "sí", "no" e "irrelevante" a sus preguntas.
 
 1. ¿Qué es Git y para qué se utiliza?
 2. ¿Qué comando se utiliza para crear un nuevo repositorio en Git?
@@ -23,5 +19,3 @@ Contesta todas para desbloquear las preguntas al staff de Git y GitHub y te ayud
 17. ¿Cómo se elimina un archivo del área de preparación sin borrarlo del proyecto?
 18. ¿Qué comando se usa para deshacer el último commit sin perder los cambios?
 19. ¿Qué es un "remote" en Git?
-20. Nombres de todxs tus compañerxs de equipo
-
